@@ -1,7 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;  
 }
-.section-1{
+.section-1 {
     display: flex;
 }
 .section1-div-1{
@@ -17,7 +17,7 @@ body{
 .section1-div2 h1{
     font-size: 35px;     
 }
-.section1-div2-span{
+.all-span{
     color: orange;
 }
 .link-a{
@@ -32,4 +32,35 @@ body{
 }
 .section1-div-1 img{
     width: 75%;
+}
+/* second-step */
+
+.section2-div-1{
+    display: flex;
+   margin: 0px 90px;
+}
+.section2-h1{
+    font-size: 40px;
+    text-align: center;
+}
+.section2-div-2{
+    width: 30%;
+    padding: 20px;
+    margin: 0px 12px;
+    border-radius: 20px;
+
+  
+}
+.section2-div-2 img{
+width: 80px;
+margin-left: 25px;
+}
+.section2-div-2-1{
+    background-color: rgba(95, 11, 252, 0.199);
+}
+.section2-div-2-2{
+    background-color: rgba(149, 235, 231, 0.322);
+}
+.section2-div-2-3{
+    background-color: rgba(250, 64, 8, 0.219);
 }
