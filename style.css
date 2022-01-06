@@ -103,7 +103,8 @@ margin-left: 25px;
   }
   /* step--5 */
   .section5{
-border: 3px solid red;
+border-top: 3px solid red;
+background-image: linear-gradient(rgba(255, 0, 0, 0.207),rgba(0, 0, 0, 0.404));
   }
   .section5-div-1{
       display: flex;
