@@ -23,9 +23,9 @@ body{
 .link-a{
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(rgb(58, 30, 24),red);
+    background-image: linear-gradient(rgb(117, 90, 84),red);
     padding:10px 50px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 .section1-div-1 h4{
     margin-top: 40px;
@@ -38,6 +38,7 @@ body{
 .section2-div-1{
     display: flex;
    margin: 0px 90px;
+   
 }
 .section2-h1{
     font-size: 40px;
@@ -48,19 +49,132 @@ body{
     padding: 20px;
     margin: 0px 12px;
     border-radius: 20px;
-
-  
+    border-left:3px solid rgb(111, 0, 255);
+    
 }
 .section2-div-2 img{
 width: 80px;
 margin-left: 25px;
+
 }
 .section2-div-2-1{
-    background-color: rgba(95, 11, 252, 0.199);
+    background-image: linear-gradient(rgba(255, 0, 0, 0.767), rgba(17, 16, 14, 0.384));
+    box-shadow: 15px 20px 20px rgba(255, 0, 0, 0.705);
 }
 .section2-div-2-2{
-    background-color: rgba(149, 235, 231, 0.322);
+    background-image: linear-gradient(rgba(29, 22, 22, 0.541), rgba(245, 166, 7, 0.74));
+    box-shadow: 15px 20px 20px rgba(255, 145, 0, 0.705);
 }
 .section2-div-2-3{
-    background-color: rgba(250, 64, 8, 0.219);
+    background-image: linear-gradient(rgba(250, 245, 245, 0.671), rgba(255, 9, 173, 0.384));
+    box-shadow: 15px 20px 20px rgba(252, 160, 160, 0.945);
 }
+  /* step --3 */
+  .section3{
+    display: flex;
+    margin-top: 100px;
+    background-image: url(photo/illustrators/dream-bg.png);
+    background-repeat: no-repeat;
+    background-size: 88px;
+      
+  }
+  .section3 img{
+    width: 70%;
+    margin-left: 90px;
+    border-radius: 20px;
+    background-position: right;
+  }
+  .section3-div-1{
+      width: 42%;
+  }
+  /* step --4 */
+  .section4{
+      display: flex;
+      margin: 60px;
+      margin-top: 200px;
+  }
+  .section4-div-1{
+    width: 80%;
+    padding: 30px;
+}
+  .section4-div-1 img{
+      width: 60%;
+     
+  }
+  /* step--5 */
+  .section5{
+border: 3px solid red;
+  }
+  .section5-div-1{
+      display: flex;
+     margin-left: 40px;
+      align-items: center;
+      
+  }
+  .section5-div-1 img{
+      width: 20%;
+  }
+ .section5-div-1 ul{
+     margin-left: 70px;
+ }
+ .section5-div-1 ul li{
+ display: inline;
+ margin: 10px;
+ }
+ .section5-div-1 ul li a{
+     text-decoration: none;
+     font-size: 20px;
+     color: rgb(122, 5, 255);
+     background-image: linear-gradient(rgb(205, 250, 4),rgb(241, 211, 211));
+     padding:1px 5px;
+     border-radius: 2px;
+ }
+ .section5-link-a{
+     margin-left: 100px;
+     
+ }
+ /* section5-div-2 */
+ .section5-div-2{
+     display: flex;
+     margin-top: 100px;
+ }
+ .section5-div-2-1{
+     width: 50%;
+     margin-left: 40px;
+ }
+ .section5-div-2-1 img{
+margin-left: 100px;
+     width:70%;
+ }
+ .section5-div-2-1 h5{
+     font-size: 20px;
+ }
+ .section5-div-2-1 h1{
+font-size: 50px;
+ }
+ .section5-div-2-1 h3{
+ font-size: 25px;
+ color: rgba(16, 56, 235, 0.398);
+ }
+ .section5-div-2-1 span{
+     color: rgb(255, 44, 7);
+ }
+ #hire-me{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(128, 209, 253),rgb(250, 29, 29));
+    padding:10px 50px;
+    border-radius: 5px;
+ }
+ .last-div{
+     text-align: center;
+     background-color: black;
+     padding: 5px;
+     color: white;
+ }
+ .last-div h1{
+     font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+ #last-div-span{
+     color: red;
+ }
