@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;  
+    background-image: linear-gradient(rgba(219, 59, 80, 0.226),rgba(121, 26, 211, 0.274));
 }
 .section-1 {
     display: flex;
@@ -12,13 +13,13 @@ body{
 .section1-div2{
     border-left: 4px solid;
     padding-left: 10px;
-    border-color: rgb(248, 211, 3);
+    border-color: rgb(248, 3, 3);
 }
 .section1-div2 h1{
     font-size: 35px;     
 }
 .all-span{
-    color: orange;
+    color: rgba(49, 84, 240, 0.644);
 }
 .link-a{
     text-decoration: none;
@@ -38,7 +39,6 @@ body{
 .section2-div-1{
     display: flex;
    margin: 0px 90px;
-   
 }
 .section2-h1{
     font-size: 40px;
@@ -49,7 +49,7 @@ body{
     padding: 20px;
     margin: 0px 12px;
     border-radius: 20px;
-    border-left:3px solid rgb(111, 0, 255);
+    border-left:5px solid rgb(111, 0, 255);
     
 }
 .section2-div-2 img{
@@ -72,20 +72,21 @@ margin-left: 25px;
   /* step --3 */
   .section3{
     display: flex;
-    margin-top: 100px;
-    background-image: url(photo/illustrators/dream-bg.png);
+    margin-top: 140px;
+    margin-left: 40px;
+    background-image: url(photo/illustrators/dream-bg.pn);
     background-repeat: no-repeat;
     background-size: 88px;
       
   }
   .section3 img{
-    width: 70%;
+    width: 80%;
     margin-left: 90px;
-    border-radius: 20px;
+    border-radius: 10px;
     background-position: right;
   }
   .section3-div-1{
-      width: 42%;
+      width: 70%;
   }
   /* step --4 */
   .section4{
@@ -104,7 +105,7 @@ margin-left: 25px;
   /* step--5 */
   .section5{
 border-top: 3px solid red;
-background-image: linear-gradient(rgba(255, 0, 0, 0.207),rgba(0, 0, 0, 0.404));
+background-image: linear-gradient(rgba(211, 68, 68, 0.207),rgba(0, 0, 0, 0.404));
   }
   .section5-div-1{
       display: flex;
@@ -135,13 +136,17 @@ background-image: linear-gradient(rgba(255, 0, 0, 0.207),rgba(0, 0, 0, 0.404));
      
  }
  /* section5-div-2 */
+
  .section5-div-2{
      display: flex;
      margin-top: 100px;
+     background-image: url(photo/shapes/shape-2.png);
+     background-repeat: no-repeat;
  }
  .section5-div-2-1{
      width: 50%;
      margin-left: 40px;
+    
  }
  .section5-div-2-1 img{
 margin-left: 100px;
