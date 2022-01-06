@@ -19,7 +19,7 @@ body{
     font-size: 35px;     
 }
 .all-span{
-    color: rgba(49, 84, 240, 0.644);
+    color: rgba(245, 14, 122, 0.918);
 }
 .link-a{
     text-decoration: none;
@@ -104,6 +104,7 @@ margin-left: 25px;
   }
   /* step--5 */
   .section5{
+      padding-bottom: 10px;
 border-top: 3px solid red;
 background-image: linear-gradient(rgba(211, 68, 68, 0.207),rgba(0, 0, 0, 0.404));
   }
@@ -172,11 +173,46 @@ font-size: 50px;
     padding:10px 50px;
     border-radius: 5px;
  }
+#contact-me{
+    margin-left: 300px;
+    height: 50px;
+}
+ /* FORM */
+
+ .section5-div-2 form{
+    margin-left: 300px;
+    
+    
+}
+.form-div{
+    margin: 5px;
+    font-size: 18px;
+}
+.form-input{
+    font-size: 25px;
+    background-color: rgba(165, 42, 42, 0.686);
+    border: 3px solid rgba(0, 174, 255, 0.781);
+    border-radius: 7px;
+}
+#send{
+    background-color: rgb(26, 10, 26);
+    padding:5px 20px;
+    color: white;
+    font-size: 20px;
+    margin-left: 230px;
+    border-radius: 2px;
+    text-decoration: none;
+    border: 2px solid rgb(30, 211, 45);
+
+}
+/* ##### */
+
  .last-div{
      text-align: center;
      background-color: black;
      padding: 5px;
      color: white;
+     margin-top: 10px;
  }
  .last-div h1{
      font-family:Georgia, 'Times New Roman', Times, serif;
